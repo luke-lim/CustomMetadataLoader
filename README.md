@@ -9,6 +9,10 @@
 This is a fork off the metadata loader.  In it get rid of the application from the package.xml and added my own ant script.  Feel add your user credentials and rename it to build.properties.  if you have the migrationtoolkit installed deployment will be a snap.  
 I created this because the existing project didn't deploy with workbench.
 
+1 other caveat. if the "button" on the initial load screen doesn't work.  just setup the visualforce domain as a remote site and that will fix any of your woes.  Keyword visualforce domain, not the salesforcedomain.
+
+
+
 v 2.0
 The Custom Metadata loader tool now supports updates of existing custom metadata records. Load the csv file with updates to existing records, and use the tool the import and update the records.
 # How to use custom metadata loader to update existing records
