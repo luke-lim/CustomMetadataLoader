@@ -19,10 +19,6 @@
         <name>ApexPage</name>
     </types>
     <types>
-        <members>Custom_Metadata_Loader</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
         <members>CountryMapping__mdt.CountryCode__c</members>
         <members>CountryMapping__mdt.CountryName__c</members>
         <name>CustomField</name>

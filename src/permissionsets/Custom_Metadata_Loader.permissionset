@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <applicationVisibilities>
-        <application>Custom_Metadata_Loader</application>
-        <visible>true</visible>
-    </applicationVisibilities>
+   
     <classAccesses>
         <apexClass>AppConstants</apexClass>
         <enabled>true</enabled>
