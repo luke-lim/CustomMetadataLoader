@@ -4,6 +4,10 @@
    <img alt="Deploy to Salesforce" 
 		 src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
+#How to use this project
+
+This is a fork off the metadata loader.  In it get rid of the application from the package.xml and added my own ant script.  Feel add your user credentials and rename it to build.properties.  if you have the migrationtoolkit installed deployment will be a snap.  
+I created this because the existing project didn't deploy with workbench.
 
 v 2.0
 The Custom Metadata loader tool now supports updates of existing custom metadata records. Load the csv file with updates to existing records, and use the tool the import and update the records.
